@@ -1,0 +1,24 @@
+aside {
+    width: 70px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Aside Media Query */
+
+@media screen and (min-width: 992px) {
+    aside {
+        width: 140px;
+    }
+}

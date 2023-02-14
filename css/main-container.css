@@ -1,0 +1,20 @@
+/* Main Container */
+
+#main-container {
+    width: calc(100% - 70px);
+    
+}
+
+
+
+
+
+
+
+/* Main Container Media Query */
+
+@media screen and (min-width: 992px) {
+    #main-container {
+        width: calc(100% - 140px);
+    }
+}
