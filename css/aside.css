@@ -1,8 +1,23 @@
 aside {
-    width: 70px;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
+    padding: 1.25rem 1.25rem;
+    color: #fff;
 }
+
+
+
+aside .icon-text {
+    display: none;
+    vertical-align: middle;
+    padding-left: 1.25rem;
+}
+
+
+
+
+
+
 
 
 
@@ -20,5 +35,9 @@ aside {
 @media screen and (min-width: 992px) {
     aside {
         width: 140px;
+    }
+
+    aside .icon-text {
+        display: initial;
     }
 }
