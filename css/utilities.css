@@ -90,6 +90,11 @@ tr:not(.ms-col-spanned) {
 }
 
 
+.offcanvas {
+    width: 100% !important;
+}
+
+
 
 
 
@@ -108,5 +113,8 @@ tr:not(.ms-col-spanned) {
     }
     .ms-hide-lg {
         display: none;
+    }
+    .offcanvas {
+        width: 50rem !important;
     }
 }

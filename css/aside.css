@@ -1,4 +1,5 @@
 aside {
+    width: auto;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
     padding: 1.25rem 1.25rem;
@@ -17,26 +18,9 @@ aside .icon-text {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Aside Media Query */
 
 @media screen and (min-width: 992px) {
-    aside {
-        width: 140px;
-    }
-
     aside .icon-text {
         display: initial;
     }
