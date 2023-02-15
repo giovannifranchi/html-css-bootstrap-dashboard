@@ -75,7 +75,9 @@ tr:not(.ms-col-spanned) {
     box-shadow: none;
 }
 
-
+.ms-opacity-hover-link:hover {
+    opacity: 0.8;
+}
 
 
 
