@@ -34,6 +34,41 @@
     vertical-align: middle;
 }
 
+.ms-col-spanned {
+    width: 50%;
+    text-align: left;
+}
+
+tr {
+    vertical-align: middle;
+}
+
+tr:not(.ms-col-spanned) {
+    text-align: center;
+}
+
+.ms-td-class > * {
+    vertical-align: middle;
+}
+
+.ms-td-class img{
+    width: 1.875rem;
+}
+
+.td-btn-primary {
+    background: transparent;
+    color: #7a838a;
+    border: 1px solid #7a838a;
+    border-radius: 5px;
+    padding: 0.3125rem 0.625rem;
+}
+
+.td-btn-primary:hover {
+    background-color: #7a838a;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
 
 
 
@@ -46,6 +81,9 @@
 @media screen and (min-width: 992px) {
     .ms-show-lg {
         display: initial;
+    }
+    .ms-table {
+        display: table-cell;
     }
     .ms-hide-lg {
         display: none;
