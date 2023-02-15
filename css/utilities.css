@@ -69,6 +69,16 @@ tr:not(.ms-col-spanned) {
     border: 1px solid #fff;
 }
 
+.ms-reset-focus:focus {
+    background-color: transparent;
+    color: currentColor;
+    box-shadow: none;
+}
+
+
+
+
+
 
 
 
