@@ -73,12 +73,21 @@ tr:not(.ms-col-spanned) {
     background-color: transparent;
     color: currentColor;
     box-shadow: none;
+    border-color: #e5e5e5;
 }
 
 .ms-opacity-hover-link:hover {
     opacity: 0.8;
 }
 
+.ms-after-reset::after {
+    display: none;
+}
+
+
+.ms-bg-lightgrey {
+    background-color: #e5e5e5;
+}
 
 
 

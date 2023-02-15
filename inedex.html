@@ -20,22 +20,56 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <!-- Container Fluid -->
+    <header class="d-flex align-items-center">
         <div class="container-fluid">
-            <!-- Row -->
-            <div class="row">
-                <div class="col-3">
+            <div class="row align-items-center bg-body py-1">
+                <div class="col-auto">
+                    <a href="#">
+                        <img src="img/mobile-logo.png" class="ms-hide-lg" alt="Boolean" style="max-height: 40px;">
+                        <img src="img/logo.svg" class="ms-show-lg" alt="Boolean">
+                    </a>
                 </div>
-                <div class="col-7">
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text ms-bg-lightgrey border-0" id="inputGroup-sizing-default">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <input class="form-control me-2 ms-bg-lightgrey border-start-0 ms-reset-focus" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                    </div>
                 </div>
-                <div class="col-2">
+                <div class="col-auto">
+                    <ul class="navbar-nav d-flex flex-row gap-2">
+                        <li class="nav-item ms-show-lg">
+                          <a class="nav-link" aria-current="page" href="#">
+                            <i class="fa-solid fa-list text-secondary"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-show-lg">
+                          <a class="nav-link" href="#">
+                            <i class="fa-solid fa-circle-question text-secondary"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item ms-show-lg">
+                          <a class="nav-link" href="#">
+                            <i class="fa-solid fa-ellipsis-vertical text-secondary"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle ms-after-reset" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell text-warning"></i>
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                        </li>
 
+                      </ul>
                 </div>
             </div>
-            <!-- /Row -->
         </div>
-        <!-- /Container Fluid -->
     </header>
     <!-- /Header -->
     <!-- Main -->
@@ -430,7 +464,7 @@
                             </div>
                             <!-- /TODO Card -->
                             <!-- Graph Card -->
-                            <div class="card p-3 my-5">
+                            <div class="card p-3 mt-5">
                                 <!-- Kitchen Sink -->
                                 <div class="card">
                                     <img src="img/stats.jpeg" class="card-img-top" alt="Graph">
